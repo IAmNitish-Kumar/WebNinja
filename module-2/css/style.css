@@ -19,16 +19,16 @@ section {
 }
 
 section>h2 {
-    float: right;
+    text-align: center; 
+    height: 40px;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 0;
-    width: 230px;
-    text-align: center;
-    font-size: 24px;
     font-weight: bold;
-    height: 45px;
+    width: 150px;
+    font-size: 20px;
     padding-top: 10px;
+    float: right;
 }
 
 section.Chicken>h2 {
@@ -47,7 +47,7 @@ section.Sushi>h2 {
 }
 
 section>p {
-    padding: 40px 15px 15px 15px;
+    padding: 35px 12px 12px 12px;
 }
 
 /* Simple Responsive Framework. */
